@@ -84,7 +84,7 @@ export const products: Product[] = [
     name: 'Revitalizing Eye Cream', 
     brand: 'Fresh Glow', 
     category: 'Skincare', 
-    image: 'https://unsplash.com/photos/person-holding-white-plastic-tube-8ZQ2jpAagSQ', 
+    image: '',
     rating: 6, 
     ingredients: [ 
       { name: 'Caffeine', riskLevel: 2, concerns: ['Dehydration'] }, 
@@ -97,7 +97,7 @@ export const products: Product[] = [
     name: 'Soothing Body Lotion', 
     brand: 'Smooth Essentials', 
     category: 'Bodycare', 
-    image: 'https://unsplash.com/photos/nivea-creme-on-white-table-idbGFFT2kOg', 
+    image: '',
     rating: 3, 
     ingredients: [ 
       { name: 'Shea Butter', riskLevel: 1, concerns: [] }, 
@@ -110,7 +110,7 @@ export const products: Product[] = [
     name: 'Hydrating Face Cream',
     brand: 'Glow Nature',
     category: 'Skincare',
-    image: 'https://unsplash.com/photos/grown-alchemist-bottle-with-black-background-QodV5ti37WA',
+    image: '',
     rating: 4,
     ingredients: [
       { name: 'Aloe Vera', riskLevel: 1, concerns: [] },
@@ -136,7 +136,7 @@ export const products: Product[] = [
     name: 'Deep Cleansing Face Wash',
     brand: 'Clean Face',
     category: 'Skincare',
-    image: 'https://unsplash.com/photos/neutrogena-ultra-sheer-touch-sunscreen-lotion-RrL19hOvmgU',
+    image: '',
     rating: 3,
     ingredients: [
       { name: 'Tea Tree Oil', riskLevel: 1, concerns: [] },
@@ -149,7 +149,7 @@ export const products: Product[] = [
     name: 'Aloe Vera Gel',
     brand: 'Nature’s Touch',
     category: 'Skincare',
-    image: 'https://images.app.goo.gl/xc6xAuu6gBn6tCsH9',
+    image: '',
     rating: 5,
     ingredients: [
       { name: 'Aloe Vera', riskLevel: 1, concerns: [] },
@@ -162,7 +162,7 @@ export const products: Product[] = [
     name: 'Repairing Hair Mask',
     brand: 'Healthy Tresses',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/a-table-topped-with-a-jar-of-hair-mask-next-to-a-plant-omY18KP7_Cw',
+    image: '',
     rating: 4,
     ingredients: [
       { name: 'Keratin', riskLevel: 2, concerns: [] },
@@ -175,7 +175,7 @@ export const products: Product[] = [
     name: 'Herbal Shampoo',
     brand: 'Herbal Clean',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/a-bottle-of-lotion-next-to-a-bouquet-of-flowers-8S5HpbGOKYo',
+    image: '',
     rating: 4,
     ingredients: [
       { name: 'Hibiscus Extract', riskLevel: 1, concerns: [] },
@@ -188,7 +188,7 @@ export const products: Product[] = [
     name: 'Argan Oil Shampoo',
     brand: 'Moroccan Bliss',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/black-and-white-plastic-pump-bottle-KgyuyzxYyRw',
+    image: '',
     rating: 5,
     ingredients: [
       { name: 'Argan Oil', riskLevel: 1, concerns: [] },
@@ -201,7 +201,7 @@ export const products: Product[] = [
     name: 'Coconut Curl Cream',
     brand: 'Tropical Locks',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/ice-cream-in-coconut-beside-spoon-4ZvmH7yzEsA',
+    image: '',
     rating: 4,
     ingredients: [
       { name: 'Coconut Oil', riskLevel: 1, concerns: [] },
@@ -214,7 +214,7 @@ export const products: Product[] = [
     name: 'Brightening Face Mask',
     brand: 'Glow Naturals',
     category: 'Skincare',
-    image: 'https://unsplash.com/photos/a-woman-is-putting-a-mask-on-her-face-U0_AdQhzaz8',
+    image: '',
     rating: 6,
     ingredients: [
       { name: 'Vitamin C', riskLevel: 2, concerns: [] },
@@ -227,7 +227,7 @@ export const products: Product[] = [
     name: 'Matte Liquid Foundation',
     brand: 'Flawless Finish',
     category: 'Makeup',
-    image: 'https://unsplash.com/photos/two-labeled-bottles-xBqYLnRhfaI',
+    image: '',
     rating: 7,
     ingredients: [
       { name: 'Dimethicone', riskLevel: 3, concerns: [] },
@@ -240,7 +240,7 @@ export const products: Product[] = [
     name: 'Charcoal Body Scrub',
     brand: 'Earthy Elements',
     category: 'Bodycare',
-    image: 'https://unsplash.com/photos/black-fire-pit-on-sand-OTsKXDu2O_g',
+    image: '',
     rating: 3,
     ingredients: [
       { name: 'Activated Charcoal', riskLevel: 1, concerns: [] },
@@ -253,7 +253,7 @@ export const products: Product[] = [
     name: 'Volumizing Mascara',
     brand: 'Lash Luxe',
     category: 'Makeup',
-    image: 'https://unsplash.com/photos/a-close-up-of-a-lipstick-jvgtNgShmFo',
+    image: '',
     rating: 9,
     ingredients: [
       { name: 'Beeswax', riskLevel: 1, concerns: [] },
@@ -266,7 +266,7 @@ export const products: Product[] = [
     name: 'Keratin Repair Serum',
     brand: 'Silky Locks',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/white-and-brown-plastic-bottles-rwfklNB26T4',
+    image: '',
     rating: 8,
     ingredients: [
       { name: 'Keratin', riskLevel: 1, concerns: [] },
@@ -279,7 +279,7 @@ export const products: Product[] = [
     name: 'Hydrating Lip Gloss',
     brand: 'Luxe Lips',
     category: 'Makeup',
-    image: 'https://unsplash.com/photos/a-person-brushing-the-teeth-eFb06JAw4mg',
+    image: '',
     rating: 8,
     ingredients: [
       { name: 'Beeswax', riskLevel: 1, concerns: [] },
@@ -292,7 +292,7 @@ export const products: Product[] = [
     name: 'Rosewater Facial Mist',
     brand: 'Petal Glow',
     category: 'Skincare',
-    image: 'https://unsplash.com/photos/two-clear-glass-canister-jars-AnLG86L_6nU',
+    image: '',
     rating: 2,
     ingredients: [
       { name: 'Rosewater', riskLevel: 1, concerns: [] },
@@ -305,7 +305,7 @@ export const products: Product[] = [
     name: 'SPF 50 Sunscreen Lotion',
     brand: 'Sun Safe',
     category: 'Skincare',
-    image: 'https://unsplash.com/photos/pink-and-white-plastic-tube-bottle-BibJjO4sYrI',
+    image: '',
     rating: 8,
     ingredients: [
       { name: 'Zinc Oxide', riskLevel: 2, concerns: [] },
@@ -318,7 +318,7 @@ export const products: Product[] = [
     name: 'Detoxifying Hair Mask',
     brand: 'Hair Essentials',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/white-and-black-usb-flash-drive-DuNXXPScbJM',
+    image: '',
     rating: 7,
     ingredients: [
       { name: 'Bentonite Clay', riskLevel: 1, concerns: [] },
@@ -331,7 +331,7 @@ export const products: Product[] = [
     name: 'Herbal Conditioner',
     brand: 'Green Glow',
     category: 'Haircare',
-    image: 'https://unsplash.com/photos/a-bottle-of-wine-sitting-next-to-a-potted-plant-XEhqEoGCJdM',
+    image: '',
     rating: 3,
     ingredients: [
       { name: 'Aloe Vera', riskLevel: 1, concerns: [] },
