@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Camera } from 'lucide-react';
 import CameraModal from './CameraModal';
+import Tesseract from 'tesseract.js';
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -10,12 +11,14 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
   const [isCameraOpen, setIsCameraOpen] = useState(false);
 
   const handleCapture = async (imageData: string) => {
-    // In a real application, you would:
-    // 1. Send this image to your backend for processing
-    // 2. Use computer vision to detect the product
-    // 3. Look up the product in your database
-    // For now, we'll just simulate a search
-    onSearch('Captured Product');
+    try { const { data: { text } } = await Tesseract.recognize(imageData, 'eng', {
+       logger: (m) => console.log(m),
+     });
+     onSearch(text); 
+    } catch (error) { 
+      console.error('Error processing image with Tesseract:', error); 
+      onSearch('Error processing image');
+    }  
   };
 
   return (
