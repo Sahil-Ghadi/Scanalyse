@@ -53,7 +53,8 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
           type="text"
           value={search}
           placeholder="Search for a product or upload an image..."
-          className="w-full px-4 py-3 pl-12 pr-16 text-gray-700 bg-white rounded-full border border-gray-200 focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
+          className="w-full px-4 py-3 pl-12 pr-16 text-gray-700 bg-white rounded-full
+           border border-gray-200 focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
           onChange={handleInput}
         />
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />

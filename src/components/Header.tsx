@@ -17,7 +17,7 @@ export default function Header() {
             <Droplets className="w-8 h-8 text-pink-500" />
             <span className="font-bold text-xl text-gray-800">Scanalyse</span>
           </Link>
-          <nav className="hidden md:flex space-x-8">
+          <nav className="flex gap-4">
             <Link to="/products" className={isActive('/products')}>Products</Link>
             <Link to="/categories" className={isActive('/categories')}>Categories</Link>
             <Link to="/about" className={isActive('/about')}>About</Link>
