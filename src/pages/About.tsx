@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">About Scanalyse</h1>
+        <h1 className="text-3xl font-bold text-center text-gray-900 mb-6">About Scanalyse</h1>
         
         <p className="text-gray-600 mb-8">
           Scanalyse is your trusted companion in making informed decisions about beauty and personal care products. 
