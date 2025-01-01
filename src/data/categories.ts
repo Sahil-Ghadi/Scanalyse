@@ -1,18 +1,7 @@
 import type { Category } from '../types';
 
 export const categories: Category[] = [
-  {
-    id: 'Skincare',
-    name: 'Skincare',
-    description: 'Face care products for all skin types',
-    image: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=600',
-  },
-  {
-    id: 'Haircare',
-    name: 'Hair Care',
-    description: 'Shampoos, conditioners, and treatments',
-    image: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=600',
-  },
+  
   {
     id: 'Makeup',
     name: 'Makeup',
